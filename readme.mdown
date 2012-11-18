@@ -1,0 +1,6 @@
+Summary
+====
+
+'Primes' is a Java program that inputs a number, and the output will be the input's prime number.
+
+For example, if the user inputs "2", the output will be "3" because the second prime number is 3.
