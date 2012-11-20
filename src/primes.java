@@ -18,6 +18,6 @@ public class primes {
 			}
 		}
 	}
-		System.out.println("The " + nth + "th prime number is: " + primes[nth-1]);
+		System.out.println("The " + nth + "th prime number is: " + primes[nth-1] + ".");
 	}
 }
