@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class primes {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Enter the nth prime to be calculated: ");
+		System.out.print("Please enter the nth prime to be calculated: ");
 		int nth = scanner.nextInt();
 		int counter = 1;
 		int[] primes = new int[nth];
@@ -18,6 +18,6 @@ public class primes {
 			}
 		}
 	}
-		System.out.println("The prime number of " + nth + " is: " + primes[nth-1] + ".");
+		System.out.println("The " + nth + "th prime number is: " + primes[nth-1]);
 	}
 }
