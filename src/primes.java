@@ -7,7 +7,7 @@ public class primes {
 		int counter = 1;
 		int[] primes = new int[nth];
 		primes[0] = 2;
-		for (int i = 3; counter < nth; i=i+2) {
+		for (int i = 3; counter < nth; i+=2) {
 			for (int m = 0; m < counter; ++m) {
 				if (i % primes[m] == 0) {
 				break;
