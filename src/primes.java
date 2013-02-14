@@ -10,14 +10,14 @@ public class primes {
 		for (int i = 3; counter < nth; i+=2) {
 			for (int m = 0; m < counter; ++m) {
 				if (i % primes[m] == 0) {
-				break;
+					break;
 				}
-			if (i/primes[m] <= primes[m]) {
-				primes[counter++] = i;
-				break;
+				if (i/primes[m] <= primes[m]) {
+					primes[counter++] = i;
+					break;
+				}
 			}
 		}
-	}
 		System.out.println("The " + nth + "th prime number is: " + primes[nth-1] + ".");
 	}
 }
