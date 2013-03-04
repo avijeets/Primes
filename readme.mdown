@@ -1,5 +1,4 @@
-Summary
-====
+##Summary
 
 'Primes' is a Java program that inputs a number, and the output will be the input's prime number.
 
