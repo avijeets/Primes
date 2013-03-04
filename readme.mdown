@@ -3,3 +3,18 @@
 'Primes' is a Java program that inputs a number, and the output will be the input's prime number.
 
 For example, if the user inputs "2", the output will be "3" because the second prime number is 3.
+
+
+##Installation 
+
+Clone this repository:
+
+    git clone https://github.com/CHSCompSci/Primes.git
+    cd Primes
+
+Once the repository is cloned, and the directory is correct, run the Java program:
+
+    javac src/Primes.java
+    java src/Primes
+
+As mentioned, the program will execute its primary functions. To edit to your liking, open the Primes.java file in the /src folder. Within your Java IDE, you can now modify as you wish.
